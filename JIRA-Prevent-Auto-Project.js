@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Prevent Default Project
 // @namespace    http://infoprojects.nl/
-// @version      0.2
+// @version      0.3
 // @description  When creating an issue, empties the project input
 // @author       Marco
 // @match        https://infoprojects.atlassian.net/*/*
-// @updateURL    https://tampermonkey.iproxtest.nl/JIRA-Prevent-Auto-Project.js
+// @updateURL    https://github.com/scizorg45/Tampermonky_scripts/blob/master/JIRA-Prevent-Auto-Project.js
 // @grant        none
 // ==/UserScript==
 
