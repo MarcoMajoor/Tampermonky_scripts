@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Prevent Default Project
 // @namespace    http://infoprojects.nl/
-// @version      0.3
+// @version      1.0
 // @description  When creating an issue, empties the project input
 // @author       Marco
 // @match        https://infoprojects.atlassian.net/*/*
@@ -20,6 +20,7 @@
     if (projectFields.length) {
       projectFields.val("");
       // We need to disconnect, or else we will not get project filled
+      // test
       observer.disconnect();
     }
   });
